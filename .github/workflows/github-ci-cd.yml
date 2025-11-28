@@ -36,6 +36,6 @@ jobs:
         image: ${{ secrets.DOCKER_NAME}}/todoapp
         tags: latest
         registry: docker.io
-        dockerfile: deployment/Dockerfile.io
+        dockerfile: deployment/Dockerfile
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_PASSWORD }}

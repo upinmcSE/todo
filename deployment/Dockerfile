@@ -2,8 +2,6 @@
 # Start with a Maven image that includes JDK 21
 FROM maven:3.9.11-amazoncorretto-8-debian-trixie AS build
 
-
-
 # Copy source code and pom.xml file to /app folder
 WORKDIR /app
 COPY ../pom.xml .
